@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #a8d5ba, #f76c6c);
+    color: #444;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #b22222; /* Rojo navideño */
+    color: white;
+    border-bottom: 5px solid #228b22; /* Verde navideño */
+}
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px #000;
+}
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    border: 2px solid #228b22; /* Verde navideño */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.wishlist-item {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+    background: #f5f5f5;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #b22222; /* Rojo navideño */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.wishlist-item:hover {
+    transform: scale(1.05);
+    background: #fff5f5; /* Fondo suave rojo */
+}
+.wishlist-item i {
+    font-size: 1.5em;
+    color: #b22222; /* Rojo navideño */
+    margin-right: 10px;
+}
+.details {
+    display: block;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+.details a {
+    color: #228b22; /* Verde navideño */
+    text-decoration: none;
+    font-weight: bold;
+}
+.details a:hover {
+    text-decoration: underline;
+}
+.card {
+    display: none;
+    margin-top: 15px;
+    padding: 15px;
+    background: #f0fff0; /* Fondo suave verde */
+    border-radius: 10px;
+    font-size: 1.1em;
+    border: 2px solid #228b22; /* Verde navideño */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card p {
+    margin: 0;
+    color: #2c3e50;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+    font-size: 0.9em;
+    background-color: #b22222;
+    padding: 10px;
+    border-top: 5px solid #228b22;
+    text-shadow: 1px 1px 2px #000;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #a8d5ba, #f76c6c);
+    color: #444;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive; /* Título con una fuente decorativa */
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.card p, .wishlist-item div {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+}
+
